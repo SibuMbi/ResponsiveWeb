@@ -62,7 +62,6 @@ color: #FFFF;
  
 }
 
-
 p {
 font-family: "Poppins";
 font-style: normal;
@@ -97,27 +96,27 @@ display: none;
 }
 
 @media screen and (max-width: 768px) {
-.img {
+img {
 max-width: 617px;
 }
 }
 @media screen and (max-width: 668px) {
-.img {
+img {
 max-width: 517px;
 }
 }
 @media screen and (max-width: 568px) {
-.img {
+img {
 max-width: 417px;
 }
 }
 @media screen and (max-width: 468px) {
-.img {
+img {
 max-width: 317px;
 }
 }
 @media screen and (max-width: 350px) {
-.img {
+img {
 max-width: 256px;
 }
 }
