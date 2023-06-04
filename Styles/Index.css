@@ -1,122 +1,140 @@
 .body{
- background-color: black;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-content: center;
- font-family: 'Poppins';
- font-style: normal;
- color: #FFFF;
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+font-family: 'Poppins';
+font-style: normal;
+color: #FFFF;
+}
+
+.header{
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+margin: 30px;
+color: #FFFF;
+}
+
+h2 {
+font-family: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 84px;
+line-height: 102px;
+letter-spacing: -2px;
+color: #FFFFFF;
 }
 
 .logo{
- display: flex;
- justify-content: space-around;
- flex-direction: row;
- margin: 30px;
- color: #FFFF;
-}
-.logo{
- font-weight: 400;
- font-size: 24px;
- line-height: 36px;
- letter-spacing: -0.25px;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: -0.25px;
 }
 .nav-links{
- margin: 20px;
+margin: 20px;
 }
 .links{
- display: flex;
- flex-direction: row;
- list-style: none;
+display: flex;
+flex-direction: row;
+list-style: none;
 }
 .link{
- margin: 15px;
- text-decoration: none;
- font-weight: 400;
- font-size: 16px;
- line-height: 22px;
- color: #FFFF;
+margin: 15px;
+text-decoration: none;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFF;
 }
 .nav-links:hover{
- color: blue;
- text-decoration: underline;
+color: rgb(255, 0, 43);
+text-decoration: underline;
 }
 
 .container {
- display: flex;
- justify-content: center;
- align-items: center;
- color: #FFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #FFFF;
  
 }
 
-.container{
+
+p {
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
 text-align: center;
+color: #FFFFFF
 }
 
-.h1{
- font-weight: 500;
- font-size: 84px;
- line-height: 102px;
- letter-spacing: -2px;
+.potrait {
+display: flex;
+justify-content: space-around;
+-ms-flex-pack: distribute;
+max-width: 864px;
 }
-.text{
- font-weight: 400;
- font-size: 22px;
- line-height: 34px;
+
+img {
+position: relative;
+width: 585px;
+height: 690px;
+left: 711px;
+top: 60px;
+padding: 0px;
 }
-.image{
- height: 486px;
- max-width: 864px;
- border-radius: 0px;
-}
+
 
 @media screen and (max-width: 320px) {
- .links {
-    display: none;
- }
+.links {
+display: none;
+}
 }
 
 @media screen and (max-width: 768px) {
- .image {
-    max-width: 617px;
- }
+.img {
+max-width: 617px;
+}
 }
 @media screen and (max-width: 668px) {
- .image {
-    max-width: 517px;
- }
+.img {
+max-width: 517px;
+}
 }
 @media screen and (max-width: 568px) {
- .image {
-    max-width: 417px;
- }
+.img {
+max-width: 417px;
+}
 }
 @media screen and (max-width: 468px) {
- .image {
-    max-width: 317px;
- }
+.img {
+max-width: 317px;
+}
 }
 @media screen and (max-width: 350px) {
- .image {
-    max-width: 256px;
- }
+.img {
+max-width: 256px;
+}
 }
 @media screen and (max-width: 768px) {
- .Japan {
-     font-size: 72px;
- }
+h2 {
+font-size: 72px;
+}
 }
 @media screen and (max-width: 320px) {
- .Japan {
-     font-size: 36px;
- }
+h2 {
+font-size: 36px;
+}
 }
 
 @media screen and (max-width: 700px) {
- .Fusce {
-     font: 12px;
- }
+p {
+font: 12px;
+}
 }
 
